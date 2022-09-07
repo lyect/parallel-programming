@@ -26,7 +26,7 @@ Sequential program was compilated with GNU C++ compiler:
 g++ -std=c++11 -O3 *paths_to_source_files* -o a.out
 ```
 
-And parallel programs were compilated using Open MPI C++ compiler
+And parallel programs were compilated using OpenMPI C++ compiler
 
 ```
 mpicxx -std=c++11 -O3 *paths_to_source_files* -o a.out
