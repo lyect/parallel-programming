@@ -1,6 +1,6 @@
 # MPI basics
 
-### Task descrition
+### Task description
 
 Solving system of linear equations using [conjugate gradient method](https://en.wikipedia.org/wiki/Conjugate_gradient_method).
 
