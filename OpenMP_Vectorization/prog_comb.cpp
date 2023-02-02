@@ -257,14 +257,8 @@ int main(){
 	findInverse(A, Av, N, M, NSTEPS);
 	double omp_end = omp_get_wtime();
 
-	/*
-	float* B = allocateMatrix(N, M);
-	multiplyMatrices(A, Av, B, N, M, N);
-	printMatrix(B, N, M);
-	*/
 	printf("SIMD + OpenMP program took %lfs. to compute inversed matrix\n", omp_end - omp_start);
 
-	//free(B);
 	free(A);
 	free(Av);
 	return 0;
